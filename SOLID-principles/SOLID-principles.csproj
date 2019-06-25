@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>SOLID_principles</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="SRP\" />
+    <Folder Include="SRP\Problem\" />
+    <Folder Include="SRP\Solution\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="SRP\Applied\Client.cs" />
+    <Compile Remove="SRP\Applied\Movie.cs" />
+  </ItemGroup>
+</Project>
